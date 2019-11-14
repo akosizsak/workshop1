@@ -4,3 +4,9 @@ body {
     line-height: 1.5;
     color: #41525e;
 }
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    
+}
