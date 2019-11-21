@@ -36,3 +36,8 @@ footer {
 .testimonial {
     background-color: rgba(231, 233, 234, 0.3);;
 }
+
+.contact {
+    background-color: #172735;
+    color: white;
+  }
