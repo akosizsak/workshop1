@@ -26,8 +26,8 @@ p {
     margin-bottom: 1.5em;
 }
 
-section
-header
+section,
+header,
 footer {
     padding-left: 16px;
     padding-right: 16px;
