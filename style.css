@@ -17,14 +17,16 @@ h2 {
     font-size: 30px;
     font-weight: 800;
     color: #172735;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 p {
     margin-bottom: 1.5em;
 }
 
-section {
+section
+header
+footer {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 40px;
