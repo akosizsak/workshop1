@@ -43,3 +43,9 @@ footer {
     background-color: #172735;
     color: white;
   }
+
+  .two-column {
+      display: grid;
+      max-width: 1140px;
+      gap: 54px;
+  }
