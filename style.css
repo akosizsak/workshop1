@@ -3,6 +3,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #41525e;
+    background-color: springgreen;
 }
 
 h1 {
@@ -55,3 +56,29 @@ footer {
       grid-template-columns: 1fr 1fr;
       gap: 54px;
   }
+
+  .navigation {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .navigation a {
+      padding: 11px 22px;
+      margin-left: 4px;
+  }
+
+  .navigation .logo {
+      margin-right: auto;
+      margin-left: 0;
+  }
+
+.info {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.summary-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+}
