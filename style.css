@@ -44,8 +44,14 @@ footer {
     color: white;
   }
 
+  .wrap {
+      max-width: 1140px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
   .two-column {
       display: grid;
-      max-width: 1140px;
+      grid-template-columns: 1fr 1fr;
       gap: 54px;
   }
