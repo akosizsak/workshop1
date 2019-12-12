@@ -1,13 +1,12 @@
 body {
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     color: #41525e;
-    background-color: springgreen;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 900;
     color: #172735;
     margin-bottom: 32px;
@@ -36,6 +35,16 @@ footer {
     padding-bottom: 40px;
 }
 
+header {
+    background-color: #172735;
+    background-image: url("assets/top-bg.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 825px;
+}
+
 .testimonial {
     background-color: rgba(231, 233, 234, 0.3);;
 }
@@ -45,32 +54,95 @@ footer {
     color: white;
   }
 
-  .wrap {
+.wrap {
       max-width: 1140px;
       margin-right: auto;
       margin-left: auto;
   }
 
-  .two-column {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 54px;
+.two-column {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+@media (min-width: 820px) {
+    .two-column {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: 1fr 1fr;
+        gap: 54px;
+    }
+  }
+
+  .two-column .rounded-image {
+      grid-column: 1;
+      grid-row: 1;
   }
 
   .navigation {
       display: flex;
       justify-content: flex-end;
+      font-size: 14px;
   }
 
   .navigation a {
       padding: 11px 22px;
       margin-left: 4px;
+      text-decoration: none;
+      color: white;
+  }
+
+  .button {
+        background-color: #4bcc8c;
+  }
+
+ .button:hover {
+        background-color: #5f35d4;   
+ }
+
+  .navigation a:hover {
+      text-decoration: underline;
   }
 
   .navigation .logo {
       margin-right: auto;
       margin-left: 0;
+      width: 145px;
+      height: 28px;
   }
+
+  .svg {
+    width: 100%;
+  }
+
+  img {
+      width: 100%;
+  }
+
+  .rounded-image {
+      border-radius: 8px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 20%);
+  }
+
+  .navigation-contat {
+      background-color: ;
+  }
+
+  .navigation-hamburger {
+      display: none;
+  }
+
+  @media (max-width: 900px;) {
+    .nav-item {
+        display: none;
+    }
+
+    .navigation-hamburger {
+        display: block;
+    }
 
 .info {
     background-color: #ffffff;
